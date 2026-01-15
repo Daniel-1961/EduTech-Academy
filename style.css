@@ -1,0 +1,148 @@
+/* Custom styles for EduTech Academy */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap");
+:root {
+  --primary: #0d6efd;
+  --accent: #6610f2;
+  --muted: #6c757d;
+}
+body {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+  color: #222;
+}
+.navbar-brand {
+  letter-spacing: 0.5px;
+}
+
+.nav-link {
+  color: #333 !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff !important;
+}
+
+.logo {
+  height: 65px;
+  width: 65px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-section {
+  background: linear-gradient(rgba(40, 120, 235, 0.9), rgba(40, 120, 235, 0.7)),
+    url("././src/header.jpg"), no-repeat center center;
+  background-size: cover;
+  height: 90vh;
+  position: relative;
+}
+
+.hero-section .display-3 {
+  font-size: calc(1.5rem + 2vw);
+}
+
+.hero-section .lead {
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 1.25rem;
+}
+
+.hero-section .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-section .btn-primary:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
+.feature-card img {
+  height: 160px;
+  object-fit: cover;
+}
+.card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+.course-img {
+  height: 180px;
+  object-fit: cover;
+}
+.custom-footer {
+  background: #0d1b2a;
+  color: #fff;
+  padding: 20px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.custom-footer h5 {
+  color: #00bfff;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.custom-footer a {
+  color: #cfd8dc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.custom-footer a:hover {
+  color: #00bfff;
+}
+
+.custom-footer .social-icons a {
+  font-size: 1.5rem;
+  color: #cfd8dc;
+  margin-right: 12px;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.custom-footer .social-icons a:hover {
+  color: #00bfff;
+  transform: translateY(-5px);
+}
+
+.custom-footer hr {
+  border-color: rgba(255, 255, 255, 0.2);
+  margin: 12px 0;
+  border-top-width: 1px;
+}
+
+.custom-footer p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+.timeline .card {
+  border-left: 4px solid var(--primary);
+}
+.progress {
+  height: 20px;
+}
+.progress-animate {
+  width: 0;
+  animation: fillProgress 2s ease-in-out forwards;
+}
+
+@keyframes fillProgress {
+  to {
+    width: 85%;
+  }
+}
+.contact-card i {
+  font-size: 1.2rem;
+}
+@media (max-width: 576px) {
+  .hero {
+    padding: 80px 0;
+  }
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+}
