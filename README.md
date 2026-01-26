@@ -1,12 +1,3 @@
-#Group Members
-
-  1. Dagim Getnet  UGR/4150/16                          
-  2. Dagmawi Antehun UGR/0116/16      
-  3. Daniel Dawit UGR/1961/16          
-  4. Edlawit Behailu UGR/3354/16  
-  5. Habtamu Teshager UGR/ 2775/16                
-  6. Yeabsira Habtamu UGR/9644/16
-
 Image URLs used in this project
 
 - hero: https://themewagon.github.io/Edukate/img/header.jpg
