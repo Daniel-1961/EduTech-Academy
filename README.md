@@ -1,14 +1,65 @@
-Image URLs used in this project
+# EduTech Academy
 
-- hero: https://themewagon.github.io/Edukate/img/header.jpg
-- feature1: https://tse4.mm.bing.net/th/id/OIP.-4S-axmlyZMicZKwWm5A5AHaE8?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3
-- feature2: https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=60
-- feature3: https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=800&q=60
-- about:   https://i.pinimg.com/1200x/b2/c2/56/b2c2564d7f5ad67962bccf7858704bc3.jpg
-- course1: https://tse3.mm.bing.net/th/id/OIP.ES-pLHI-CDcYV2j4TdotdAHaDq?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3
-- course2: https://i.pinimg.com/736x/ea/fe/13/eafe1336f2aced5d24ee8eb433091b8c.jpg
-- course3: https://i.pinimg.com/1200x/64/a4/26/64a426c437de5832571e20d432af6d68.jpg
-- course4: https://i.pinimg.com/736x/12/f6/f1/12f6f106ce65ca15d136bce80bfd2894.jpg
-- course5: https://i.pinimg.com/736x/80/b2/69/80b269ab40dabea4c3b00353d1642286.jpg
-- course6: https://i.pinimg.com/736x/60/63/2c/60632c733a35b71938e9094d84b8a8a2.jpg
+A simple, responsive static website for EduTech Academy showcasing the landing page, courses, about, and contact pages. Built with plain HTML and CSS — ideal for learning, customization, and quick deployment (including GitHub Pages).
 
+Repository: [EduTech-Academy](https://github.com/Daniel-1961/EduTech-Academy)
+
+## Project overview
+This repository contains a small static site intended as a template or demo for an online learning platform. It's lightweight and easy to modify for personal or teaching use.
+
+## Features
+- Clean, semantic HTML structure
+- Centralized styling via `style.css`
+- Pages included for:
+  - Home / Landing (`index.html`)
+  - Courses (`courses.html`)
+  - About (`about.html`)
+  - Contact (`contact.html`)
+- Mobile-friendly layout and simple navigation
+
+## Repository structure
+- index.html — Home / landing page
+- about.html — Information about the academy
+- courses.html — Course listings and details
+- contact.html — Contact form / information
+- style.css — Global styles for the site
+- README.md — This file
+
+## Preview locally
+Option 1 — open in your browser:
+- Double-click `index.html` or right-click → Open With → your browser.
+
+Option 2 — use a simple local HTTP server (recommended for consistent behavior):
+- Python 3:
+  - Run `python -m http.server 8000` in the repository root, then open http://localhost:8000
+- Node (http-server):
+  - Install: `npm install -g http-server`
+  - Run: `http-server -p 8000` and open http://localhost:8000
+
+Option 3 — use VS Code Live Server extension for one-click preview.
+
+## Deployment
+- Deploy as a static site (e.g., GitHub Pages, Netlify, Vercel).
+- For GitHub Pages, publish the `main` branch in repository settings or enable Pages for the `docs/` folder if you move files.
+
+## How to customize
+- Edit HTML files to change content and page structure.
+- Update `style.css` to adjust layout, colors, fonts, and responsive behavior.
+- Add assets (images, fonts) in a new `assets/` or `images/` folder and reference them from HTML/CSS.
+
+## Contributing
+Contributions are welcome:
+1. Fork the repository.
+2. Create a feature branch: `git checkout -b feature-name`
+3. Commit your changes: `git commit -m "Describe your change"`
+4. Push to your fork and open a Pull Request.
+
+Please keep contributions focused (small, single-purpose changes) and include clear descriptions.
+
+## License
+This project does not include a license file. If you want to make this project open source, add a LICENSE (e.g., MIT) to the repository.
+
+## Contact
+For questions or suggestions, open an issue in this repository or reach out via the repository's contact page.
+
+Enjoy customizing EduTech Academy!
